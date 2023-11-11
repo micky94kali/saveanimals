@@ -480,6 +480,18 @@ small,
   font-size: 80%;
   font-weight: 400;
 }
+.progress {
+  width: 85%;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.progress-bar {
+  height:  100%;
+  border-radius: 4px;
+  width: 50%; /* Puedes ajustar este valor para cambiar el progreso */
+}
+
 
 mark,
 .mark {
@@ -551,7 +563,12 @@ mark,
   font-size: 90%;
   color: #6c757d;
 }
-
+.logo{
+  padding: 0.25rem;
+  background-color: #ffffff;
+  max-width: 12%;
+  height: auto;
+}
 code {
   font-size: 87.5%;
   color: #e83e8c;
